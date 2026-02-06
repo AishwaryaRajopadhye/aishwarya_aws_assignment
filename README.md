@@ -61,6 +61,7 @@ http://localhost:5000
 
 ### Commands 
 docker compose up -d --build
+
 docker ps
 
 ## AWS Setup
