@@ -98,7 +98,8 @@ http://ALB-DNS
 # Troubleshooting Guide
 
 ## App Not Accessible
-- Application is not opening in browser using:
+### Problem
+- Application is not opening in browser using
 - http://public-ip:5000   or  
 - http://ALB-DNS
 
@@ -114,6 +115,7 @@ ALB:
 - HTTP 80 → 0.0.0.0/0
 
 - Application container stopped or crashed.
+
 Check:
 
 docker ps 
@@ -129,6 +131,7 @@ docker logs flask-app
 
 ## ALB Health Check Failures
 - Target group shows:Unhealthy
+
 Check:
 
 Path: /
