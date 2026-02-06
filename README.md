@@ -83,7 +83,7 @@ docker ps
 http://<Elastic-IP>:5000
 
 ### Through Load Balancer
-http://<ALB-DNS>
+http://<ALB-DNS> 
 
 
 
