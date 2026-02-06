@@ -1,0 +1,12 @@
+*.pem
+*.key
+.env
+
+__pycache__/
+*.pyc
+
+*.log
+
+
+.DS_Store
+Thumbs.db
