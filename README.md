@@ -89,10 +89,10 @@ docker ps
 ---
 
 ### Application access through EC2
-http://Elastic-ip:5000
+http://3.213.209.149:5000
 
 ### Through Load Balancer
-http://ALB-DNS
+http://my-ALB-917209621.us-east-1.elb.amazonaws.com
 
 
 # Troubleshooting Guide
