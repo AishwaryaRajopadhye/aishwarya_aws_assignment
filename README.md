@@ -26,12 +26,19 @@ User → Application Load Balancer → Auto Scaling Group → EC2 → Docker →
 #  Project Structure
 
 aws-devops-assignment/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 ├── docker-compose.yml
+
 ├── README.md
+
 ├── screenshots/
 
 ### Clone repo
@@ -84,7 +91,7 @@ docker ps
 http://<Elastic-IP>:5000
 
 ### Through Load Balancer
-http://<ALB-DNS> 
+http://<ALB-DNS>
 
 
 
